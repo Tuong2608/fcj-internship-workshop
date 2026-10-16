@@ -1,59 +1,58 @@
 ---
 title: "Worklog Tuần 2"
-date: 2024-01-01
-weight: 1
+date: 2026-10-16
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Daily Worklog — Thứ Sáu, 16/10/2026
 
-### Mục tiêu tuần 2:
+**Nội dung:** Học và thực hành về Amazon VPC và Amazon EC2.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc đã thực hiện
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Tiếp tục lộ trình First Cloud Journey với hai bài học kế tiếp: Amazon VPC và Amazon EC2.
+- **Amazon VPC:** Tìm hiểu môi trường mạng riêng trên AWS, các thành phần Subnet, Route Table, Internet Gateway và cơ chế kiểm soát lưu lượng qua Security Group, Network ACL.
+- **Amazon EC2:** Tìm hiểu dịch vụ máy chủ ảo, các lựa chọn cấu hình instance và quy trình khởi tạo, kết nối theo tài liệu.
+- Thực hành theo hướng dẫn của hai bài lab, tập trung vào mối liên hệ giữa cấu hình mạng và khả năng truy cập máy chủ.
 
+### Kết quả và bài học
 
-### Kết quả đạt được tuần 2:
+- Bước đầu hiểu vai trò của VPC trong việc tổ chức môi trường mạng cho tài nguyên AWS.
+- Làm quen với cách triển khai và quản lý máy chủ ảo bằng Amazon EC2.
+- Nhận biết rằng khả năng kết nối đến EC2 phụ thuộc vào cấu hình mạng và các quy tắc truy cập liên quan.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Tài liệu tham khảo
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+1. [Networking Essentials with Amazon VPC](https://000003.awsstudygroup.com/)
+2. [Compute Essentials with Amazon EC2](https://000004.awsstudygroup.com/)
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+---
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+## Weekly Worklog — 12–16/10/2026
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+### Mục tiêu trong tuần
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Tiếp cận kiến thức nền tảng về mạng trên AWS.
+- Làm quen với Amazon EC2 và mối liên hệ giữa tài nguyên tính toán với môi trường mạng.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+### Công việc đã thực hiện
 
+| Thời gian | Nội dung | Tài liệu |
+|---|---|---|
+| Trong tuần, gồm ngày 16/10/2026 | Học và thực hành theo bài Amazon VPC; tìm hiểu các thành phần mạng, định tuyến và kiểm soát truy cập. | [Amazon VPC](https://000003.awsstudygroup.com/) |
+| Trong tuần, gồm ngày 16/10/2026 | Học và thực hành theo bài Amazon EC2; tìm hiểu cấu hình máy chủ ảo và cách kết nối theo hướng dẫn. | [Amazon EC2](https://000004.awsstudygroup.com/) |
 
+### Kết quả đạt được
+
+- Tiếp tục lộ trình học tập với hai chủ đề về mạng và tính toán trên AWS.
+- Bước đầu phân biệt chức năng của VPC, Subnet, Route Table và Security Group.
+- Hiểu mối liên hệ giữa vị trí triển khai EC2 trong mạng và khả năng kết nối đến instance.
+- Mở rộng kiến thức từ quản lý tài khoản, chi phí và quyền truy cập sang môi trường triển khai tài nguyên.
+
+### Nội dung cần củng cố
+
+- Ôn lại sự khác nhau giữa Security Group và Network ACL.
+- Củng cố cách đọc cấu hình định tuyến và kiểm tra các điều kiện kết nối tới EC2.
+- Rà soát tài nguyên sau mỗi buổi thực hành để quản lý chi phí.

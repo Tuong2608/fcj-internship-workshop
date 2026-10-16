@@ -1,59 +1,63 @@
 ---
 title: "Worklog Tuần 1"
-date: 2024-01-01
+date: 2026-10-09
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+## Daily Worklog — Thứ Sáu, 09/10/2026
 
-### Mục tiêu tuần 1:
+**Nội dung:** Khởi tạo tài khoản và làm quen với quản lý tài khoản AWS.
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc đã thực hiện
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+- Lên văn phòng thực tập và tạo tài khoản AWS để phục vụ quá trình học tập, thực hành.
+- Học và thực hành theo bốn bài đầu trong lộ trình First Cloud Journey:
+  - **AWS Account:** Làm quen với tài khoản AWS, giao diện quản lý và nội dung giới thiệu AWS Free Tier.
+  - **AWS Budgets:** Tìm hiểu quản lý ngân sách, theo dõi chi phí và thiết lập cảnh báo theo hướng dẫn.
+  - **AWS Support:** Tìm hiểu các gói hỗ trợ, cách truy cập Support Center và quy trình gửi yêu cầu hỗ trợ.
+  - **AWS IAM:** Tìm hiểu User, Group, Policy, Role và cách quản lý quyền truy cập tài nguyên.
 
+### Kết quả và bài học
 
-### Kết quả đạt được tuần 1:
+- Đã tạo tài khoản AWS phục vụ các bài thực hành tiếp theo.
+- Bước đầu làm quen với các công cụ quản lý chi phí, hỗ trợ và phân quyền trên AWS.
+- Nhận thức được việc kiểm soát chi phí và quyền truy cập cần được quan tâm ngay từ khi bắt đầu sử dụng tài khoản.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Tài liệu tham khảo
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+1. [Creating Your First AWS Account](https://000001.awsstudygroup.com/)
+2. [Managing Costs with AWS Budgets](https://000007.awsstudygroup.com/)
+3. [Getting Help with AWS Support](https://000009.awsstudygroup.com/)
+4. [Access Management with AWS IAM](https://000002.awsstudygroup.com/)
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+---
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+## Weekly Worklog — 05–09/10/2026
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+### Mục tiêu trong tuần
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Chuẩn bị tài khoản AWS cho quá trình thực tập.
+- Tiếp cận các kiến thức nền tảng về quản lý chi phí, hỗ trợ và kiểm soát truy cập.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+### Công việc đã thực hiện
 
+| Ngày | Nội dung | Tài liệu |
+|---|---|---|
+| 09/10/2026 | Tạo tài khoản AWS và làm quen với môi trường học tập trên AWS. | [AWS Account](https://000001.awsstudygroup.com/) |
+| 09/10/2026 | Học và thực hành theo bài hướng dẫn quản lý ngân sách. | [AWS Budgets](https://000007.awsstudygroup.com/) |
+| 09/10/2026 | Tìm hiểu dịch vụ hỗ trợ và quy trình yêu cầu hỗ trợ. | [AWS Support](https://000009.awsstudygroup.com/) |
+| 09/10/2026 | Học và thực hành theo bài hướng dẫn quản lý danh tính, quyền truy cập. | [AWS IAM](https://000002.awsstudygroup.com/) |
 
+### Kết quả đạt được
+
+- Có tài khoản AWS để tiếp tục học và thực hành.
+- Đã tiếp cận bốn chủ đề mở đầu của lộ trình First Cloud Journey.
+- Bước đầu phân biệt vai trò của AWS Budgets, AWS Support và IAM trong quá trình sử dụng AWS.
+- Xây dựng nền tảng để chuyển sang các bài học về mạng và máy chủ.
+
+### Nội dung cần củng cố
+
+- Ôn lại cách xác định quyền truy cập thông qua IAM Policy và IAM Role.
+- Tiếp tục làm quen với việc theo dõi chi phí trong quá trình thực hành.
